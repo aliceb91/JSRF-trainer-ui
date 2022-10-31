@@ -1,0 +1,94 @@
+.rectangle {
+  display: flex;
+  width: 450px;
+  height: 80px;
+  background: #32C791;
+  margin: 2px;
+  color: #000000;
+  font-size: 1.50em;
+  align-items: center;
+  padding-left: 4px;
+}
+
+.imageSoul {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFSoul.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 144%;
+  background-repeat: no-repeat;
+}
+
+.imageGraffiti {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFSpray.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.imageBoogie {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFBoogie.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.imageCube {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFCube.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.imageJazz {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFJazz.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.imageRhyth {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFRhyth.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.imageSoda{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-image: url("/public/JSRFSoda.png");
+  background-color: #32C791;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.goalName {
+  width: 370px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

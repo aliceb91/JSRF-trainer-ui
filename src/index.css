@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "NiseJSRF";
+  src: local("NiseJSRF"),
+    url("./fonts/NiseJSRF.TTF") format("truetype");
+  font-weight: normal;
+}
+
+html {
+  height: calc(100vh - 48px);
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'NiseJSRF';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #303030;
+  color: white;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
