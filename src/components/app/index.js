@@ -1,11 +1,16 @@
 import './app.css';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {Header} from './header/index.js';
 import {Form} from './form/index.js'
 import {Objectives} from './objectives/index.js'
 
 export function App() {
   const [list, setList] = useState([])
+
+  useEffect(() => {
+    document.title = "JSRF Trainer"
+  });
+
 
   function pullList(goals) {
     console.log('updating list', goals)
