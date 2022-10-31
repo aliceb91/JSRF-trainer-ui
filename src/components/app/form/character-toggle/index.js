@@ -35,7 +35,7 @@ export function CharacterToggle({getChar}) {
             label="Character Goals"
             labelPlacement="start"
             sx={{
-              '& .css-ahj2mt-MuiTypography-root': {fontFamily: 'NISEJsrf', paddingRight: '20px'},
+              '& MuiTypography-root': {fontFamily: 'NISEJsrf', paddingRight: '20px'},
               '& .css-mghcik-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked': {color: '#32C791'},
               '& .css-mghcik-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track': {backgroundColor: '#32C791'},
             }}
