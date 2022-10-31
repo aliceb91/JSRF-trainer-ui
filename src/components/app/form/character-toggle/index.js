@@ -35,9 +35,9 @@ export function CharacterToggle({getChar}) {
             label="Character Goals"
             labelPlacement="start"
             sx={{
-              '& MuiTypography-root': {fontFamily: 'NISEJsrf', paddingRight: '20px'},
-              '& .css-mghcik-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked': {color: '#32C791'},
-              '& .css-mghcik-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track': {backgroundColor: '#32C791'},
+              '& .MuiTypography-root': {fontFamily: 'NISEJsrf', paddingRight: '20px'},
+              '& .MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked': {color: '#32C791'},
+              '& .MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track': {backgroundColor: '#32C791'},
             }}
             onChange={handleChange}
           />
