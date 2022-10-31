@@ -78,7 +78,8 @@ export function Form({pullList}) {
       <span className='instruction'>
         Instructions:<br></br>
         <p className='instructions' align='justify'>
-          This tools is designed to aid in labbing / practising optimal routes for JSRF bingo. Select your zone and number of goals above and apply the relevent filters for character and graffiti squares.
+          This tool is designed to aid in labbing / practicing optimal routes for JSRF bingo. <br/> <br/>
+          Select your zone and number of goals (1-10) above and apply the relevent filters for character and graffiti squares.
         </p>
       </span>
     </div>
