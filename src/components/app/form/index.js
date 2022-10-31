@@ -46,7 +46,13 @@ export function Form({pullList}) {
 
   function getUrl() {
     console.log('geturl', output)
-    fetch(`http://localhost:8000/zones/${output.zone}?graffiti=${output.graffitiToggle}&character=${output.characterToggle}&number=${output.objectiveCount}`)
+    let url;
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+      url = `http://localhost:8000/zones/${output.zone}?graffiti=${output.graffitiToggle}&character=${output.characterToggle}&number=${output.objectiveCount}`
+    } else {
+      url = `https://jsrf-trainer-api.vercel.app/zones/${output.zone}?graffiti=${output.graffitiToggle}&character=${output.characterToggle}&number=${output.objectiveCount}`
+    }
+    fetch(url)
       .then((res) => res.json())
       .then((json) => {
         pullList(json)
