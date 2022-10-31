@@ -20,10 +20,9 @@ export function GoalSelect({objNumMax, getNums}) {
       component="form"
       sx={{
         '& > :not(style)': { m: 1, width: '325px' },
-        '& .css-hum04-MuiFormLabel-root-MuiInputLabel-root.Mui-focused': {color: '#32C791'},
-        '& .css-1mxeotk-MuiFormLabel-root-MuiInputLabel-root': {fontFamily: 'NISEJsrf'},
-        '& .css-hum04-MuiFormLabel-root-MuiInputLabel-root': {fontFamily: "NISEJsrf"},
-        '& .css-1tbae5h-MuiInputBase-root-MuiFilledInput-root:after': {borderBottomColor: '#32C791'}
+        '& .MuiFormLabel-root.MuiInputLabel-root.Mui-focused': {color: '#32C791'},
+        '& .MuiFormLabel-root.MuiInputLabel-root': {fontFamily: 'NISEJsrf'},
+        '& .MuiInputBase-root.MuiFilledInput-root:after': {borderBottomColor: '#32C791'}
       }}
       noValidate
       autoComplete="off"

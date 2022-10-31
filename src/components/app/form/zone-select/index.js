@@ -19,10 +19,9 @@ export function ZoneSelect({getZone}) {
       m: 1,
       minWidth: 325,
       maxWidth: 325,
-      '& .css-hum04-MuiFormLabel-root-MuiInputLabel-root.Mui-focused': {color: '#32C791'},
-      '& .css-1dq8qbs-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root:after': {borderBottomColor: '#32C791'},
-      '& .css-hum04-MuiFormLabel-root-MuiInputLabel-root': {fontFamily: "NISEJsrf"},
-      '& .css-1mxeotk-MuiFormLabel-root-MuiInputLabel-root': {fontFamily: "NISEJsrf"}
+      '& .MuiFormLabel-root.MuiInputLabel-root.Mui-focused': {color: '#32C791'},
+      '& .MuiInputBase-root.MuiFilledInput-root:after': {borderBottomColor: '#32C791'},
+      '& .MuiFormLabel-root.MuiInputLabel-root': {fontFamily: "NISEJsrf"}
       
       }}>
         <InputLabel id="demo-simple-select-filled-label">Zone</InputLabel>
