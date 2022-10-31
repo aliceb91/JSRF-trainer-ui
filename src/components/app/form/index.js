@@ -78,8 +78,9 @@ export function Form({pullList}) {
       <span className='instruction'>
         Instructions:<br></br>
         <p className='instructions' align='justify'>
-          This tool is designed to aid in labbing / practicing optimal routes for JSRF bingo. <br/> <br/>
-          Select your zone and number of goals (1-10) above and apply the relevent filters for character and graffiti squares.
+          This tool is designed to aid in labbing / practising optimal routes for JSRF bingo. <br/> <br/>
+          Select your zone and number of goals (1-10) above and apply the relevent filters for character and graffiti squares. <br/> <br/>
+          (For the purposes of this tool Jazz is considered a character unlock within 99th Street)
         </p>
       </span>
     </div>
