@@ -14,8 +14,16 @@ export function Form({pullList}) {
   const [zones, setZones] = useState([])
 
   useEffect(() => {
+    let url;
+
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+      url = `http://localhost:8000/zones`
+    } else {
+      url = `https://jsrf-trainer-api.vercel.app/zones`
+    }
+
     if (isLoading.current) {
-      fetch('http://localhost:8000/zones')
+      fetch(url)
       .then((res) => res.json())
       .then((json) => {
         setZones(json)
