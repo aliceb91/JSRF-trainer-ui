@@ -13,7 +13,7 @@
 
 .imageSoul {
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFSoul.png");
   background-color: #32C791;
@@ -24,7 +24,7 @@
 
 .imageGraffiti {
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFSpray.png");
   background-color: #32C791;
@@ -35,7 +35,7 @@
 
 .imageBoogie {
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFBoogie.png");
   background-color: #32C791;
@@ -46,7 +46,7 @@
 
 .imageCube {
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFCube.png");
   background-color: #32C791;
@@ -57,7 +57,7 @@
 
 .imageJazz {
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFJazz.png");
   background-color: #32C791;
@@ -68,7 +68,7 @@
 
 .imageRhyth {
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFRhyth.png");
   background-color: #32C791;
@@ -79,7 +79,7 @@
 
 .imageSoda{
   display: block;
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   background-image: url("/public/JSRFSoda.png");
   background-color: #32C791;
@@ -89,8 +89,7 @@
 }
 
 .goalName {
-  /*max-width: 370px;*/
-  flex: 1 1 auto;
+  max-width: 370px;
   margin-left: 15px;
   margin-right: 15px;
 }
