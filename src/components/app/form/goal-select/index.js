@@ -3,8 +3,13 @@ import React, {useEffect, useState} from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
-export function GoalSelect({objNumMax, getNums}) {
+export function GoalSelect({objNumMax, getNums, getUrl}) {
   const [goal, setGoal] = useState('')
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    getUrl();
+  }
 
   const handleChange = (event) => {
     setGoal(event.target.value)
@@ -26,6 +31,7 @@ export function GoalSelect({objNumMax, getNums}) {
       }}
       noValidate
       autoComplete="off"
+      onSubmit={handleSubmit}
     >
       <TextField 
         id="filled-basic" 

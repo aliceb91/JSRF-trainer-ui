@@ -3,5 +3,5 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: calc(100%-12px);
+  height: calc(100% - 12px);
 }

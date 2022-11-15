@@ -71,7 +71,7 @@ export function Form({pullList}) {
     <div className="form">
       <div className="settings">Settings:</div>
       <ZoneSelect getZone = {getZone}/>
-      <GoalSelect objNumMax = {objNum} getNums = {getNums}/>
+      <GoalSelect objNumMax = {objNum} getNums = {getNums} getUrl = {getUrl}/>
       <CharacterToggle getChar = {getChar}/>
       <GraffitiToggle getGraf = {getGraf}/>
       <GenerateButton getUrl = {getUrl}/>
